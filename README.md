@@ -1,70 +1,123 @@
-# Getting Started with Create React App
+# 🍳 Recipe Finder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and elegant **Recipe Finder Web App** built using **React.js** that allows users to discover delicious recipes from around the world. Users can search for meals by ingredient, view instructions, and even watch related YouTube videos — all in one place!
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+*  **Search Recipes:** Find meals by entering any ingredient (e.g., “chicken”, “rice”).
+*  **View Details:** See ingredients, cooking instructions, and meal images.
+*  **YouTube Video Link:** Watch how to make the dish directly on YouTube.
+*  **Responsive Design:** Works smoothly on desktop and mobile devices.
+*  **Pop-up Modal:** Click on a recipe card to view full details in a clean popup.
+*  **Attractive UI:** Styled with custom CSS for a clean and modern interface.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Technologies Used
 
-### `npm test`
+* **Frontend:** React.js
+* **Styling:** CSS (external stylesheet)
+* **API Source:** [TheMealDB API](https://www.themealdb.com/api.php)
+* **Icons & Fonts:** Google Fonts / Font Awesome
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📂 Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+recipe-finder/
+│
+├── public/
+│   ├── images/
+│   │   ├── left-bowl.png
+│   │   └── right-bowl.png
+│   └── index.html
+│
+├── src/
+│   ├
+│   │── RecipeFinder.js
+│   │
+│   │── RecipeFinder.css
+│   ├── App.js
+│   └── index.js
+│
+└── README.md
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ⚙️ Installation and Setup
 
-### `npm run eject`
+1. **Clone the repository**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   git clone https://github.com/your-username/recipe-finder.git
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. **Navigate to the project folder**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   cd recipe-finder
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. **Install dependencies**
 
-## Learn More
+   ```bash
+   npm install
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. **Start the development server**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   npm start
+   ```
 
-### Code Splitting
+5. **Open in browser**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   ```
+   http://localhost:3000
+   ```
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## API Used
 
-### Making a Progressive Web App
+**TheMealDB API**
+A free and open database of meal recipes and ingredients.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* Base URL: `https://www.themealdb.com/api/json/v1/1/`
+* Example endpoint:
 
-### Advanced Configuration
+  ```
+  https://www.themealdb.com/api/json/v1/1/filter.php?i=chicken
+  ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/366b3003-f35e-4877-bf81-6169d95b1083" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e1dfa00e-a0d6-4e52-9f08-1faac322696d" />
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## Future Enhancements
+
+*  Add filtering by cuisine (Indian, Italian, etc.)
+*  Add “Favorite Recipes” feature using local storage
+*  Make fully responsive with mobile-first design
+*  Add voice-based recipe search
+
+---
+
+## 👩‍💻 Author
+
+**Gayathri D**
+Web Development Enthusiast
+dgayathridhanush@gmail.com
+
+---
+
